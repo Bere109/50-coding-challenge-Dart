@@ -1,0 +1,9 @@
+ int a = 7;
+  int i = 1;
+  var b = 0;
+void main(){
+  for(i = 1; i < 13; i++){
+    b = i*a;
+    print("$i * $a = $b");
+    }
+ }
