@@ -1,0 +1,13 @@
+var sum = 0;
+void main() {
+  for (int i = 11; i < 30; i++) {
+    if(i % 2==0){
+      sum += i;
+    }
+    else
+    {
+     
+    }
+  }
+  print('Answer = $sum');
+}
